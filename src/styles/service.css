@@ -1,0 +1,107 @@
+.menu {
+  background-color: rgb(234, 226, 232);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.menu h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.menu-nav {
+  width: 100%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: 'menusatu menudua menutiga menuempat ';
+  padding: 5px;
+  gap: 15px;
+  justify-items: center;
+  border-radius: 3px;
+}
+
+.menu-nav h3 {
+  font-size: 40px;
+  text-align: center;
+  background-color: beige;
+  border-radius: 5px;
+}
+
+.menu-nav p {
+  font-size: 10px;
+  color: maroon;
+  font-weight: bold;
+}
+
+.menu1 {
+  grid-area: menusatu;
+  border: 5px solid white;
+  box-shadow: 0 0 5px rgb(254, 252, 252);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu1:hover,
+.menu2:hover,
+.menu3:hover,
+.menu4:hover,
+.menu5:hover,
+.menu6:hover {
+  background-color: rgb(92, 9, 9);
+}
+
+.menu2 {
+  grid-area: menudua;
+  border: 5px solid white;
+  box-shadow: 0 0 5px rgb(254, 252, 252);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu3 {
+  grid-area: menutiga;
+  border: 5px solid white;
+  box-shadow: 0 0 5px rgb(254, 252, 252);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu4 {
+  grid-area: menuempat;
+  border: 5px solid white;
+  box-shadow: 0 0 5px rgb(254, 252, 252);
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Breakpoint */
+
+@media screen and (min-width: 900px) {
+  .menu-nav {
+    display: flex;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: rgb(219, 206, 206);
+    width: 60%;
+    border-radius: 10px;
+  }
+
+  .menu-nav h3 {
+    font-size: 70px;
+  }
+
+  .menu-nav p {
+    font-size: 15px;
+    font-weight: bold;
+    color: maroon;
+  }
+
+  .menu1,
+  .menu2,
+  .menu3,
+  .menu4 {
+    width: 200px;
+  }
+}

@@ -1,0 +1,16 @@
+/* awal homePage */
+@import './header.css';
+@import './heroImage.css';
+@import './service.css';
+@import './Galery.css';
+@import './multi-carousel.css';
+@import './beritaProgram.css';
+@import './footer.css';
+/* @import './CardPilarProgram.css'; */
+
+/* akhir  homePage */
+
+* {
+  padding: 0;
+  margin: 0;
+}

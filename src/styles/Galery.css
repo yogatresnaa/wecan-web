@@ -1,0 +1,57 @@
+.program-wecan {
+  margin: 20px auto;
+  width: 90%;
+  background-color: rgb(27, 175, 239);
+  border-radius: 10px;
+}
+.program-wecan h2 {
+  text-align: center;
+  color: white;
+  font-family: Nunito;
+  font-weight: 100;
+}
+
+.pilar-program {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.pilar-program img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.pilar-program ul {
+  padding: 0px;
+}
+
+.program-wecan ul li {
+  list-style: none;
+  border-radius: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+  background-color: rgb(186, 6, 102);
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.pilar-program p {
+  font-family: Arial;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .pilar-program {
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  .pilar-program img {
+    width: 100%;
+  }
+}

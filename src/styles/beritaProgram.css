@@ -1,0 +1,71 @@
+.Info {
+  border: 1px solid rgb(238, 224, 224);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  width: 95%;
+  margin: 80px auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Info h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: Nunito;
+  font-weight: 200;
+}
+
+.berita {
+  width: 100%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(1fr);
+  gap: 50px;
+}
+
+.image-berita {
+  width: 100%;
+}
+
+.image-berita img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.info-narasi {
+  width: 100%;
+}
+
+.berita .info-narasi p {
+  color: black;
+  text-align: left;
+  font-size: 16px;
+  font-family: Nunito;
+  font-weight: 100;
+}
+
+/* Responsif brekapoint */
+
+@media screen and (min-width: 990px) {
+  .berita {
+    width: 90%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+  }
+
+  .image-berita {
+    width: 100%;
+  }
+
+  .info-narasi {
+    width: 90%;
+    margin-left: 90px;
+  }
+
+  .berita .info-narasi p {
+    font-size: 18px;
+  }
+}

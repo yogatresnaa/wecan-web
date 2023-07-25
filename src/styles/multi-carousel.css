@@ -1,0 +1,57 @@
+.pilar {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  z-index: -10;
+}
+
+.pilar .carousel {
+  z-index: -10px;
+}
+
+.pilar h3,
+h4 {
+  color: black;
+  text-align: center;
+  font-family: Nunito;
+}
+
+.pilar h4 {
+  margin-bottom: 40px;
+  font-weight: 100;
+}
+
+.item-program {
+  width: 95%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(27, 175, 239);
+}
+
+.item-program img {
+  width: 100%;
+}
+
+.information h2,
+p {
+  font-family: Roboto slab;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+
+/* Break point */
+@media screen and (min-width: 700px) {
+  .information h2,
+  p {
+    font-size: 15px;
+  }
+
+  .item-program {
+    width: 80%;
+  }
+}
