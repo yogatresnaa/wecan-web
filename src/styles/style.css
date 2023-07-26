@@ -10,6 +10,14 @@
 
 /* akhir  homePage */
 
+/*  Program */
+
+@import './styleProgramWecan/binagenerasiPage.css';
+@import './styleProgramWecan/binaSehati.css';
+@import './styleProgramWecan/binaLestari.css';
+@import './styleProgramWecan//tanggapBencana.css';
+@import './styleProgramWecan/qurban.css';
+
 * {
   padding: 0;
   margin: 0;

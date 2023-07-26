@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaAlignRight, FaAlignLeft } from 'react-icons/fa';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { LinkContainer } from 'react-router-bootstrap';
 
 function HeaderNavigation() {
   const [toggle, setToggle] = React.useState(false);
@@ -18,24 +19,40 @@ function HeaderNavigation() {
     <div>
       <Navbar expand='lg' className='bg-body-tertiary header' bg='dark' variant='dark'>
         <Container>
-          <Navbar.Brand href='#home'>
-            <img src='/images/logo.png' width='60' height='70' className='d-inline-block align-top' alt='' />
-          </Navbar.Brand>
+          <LinkContainer to='/'>
+            <Navbar.Brand>
+              <img src='/images/logo.png' width='60' height='70' className='d-inline-block align-top' alt='' />
+            </Navbar.Brand>
+          </LinkContainer>
 
           <Navbar.Toggle aria-controls='basic-navbar-nav' onClick={toggleNav}>
             {toggle === true ? <FaAlignLeft /> : <FaAlignRight />}
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav' className='justify-content-end'>
             <Nav className='justify-content-end'>
-              <Nav.Link href='#home'>Beranda</Nav.Link>
-              <Nav.Link href='#link'>Profil</Nav.Link>
+              <LinkContainer to='/'>
+                <Nav.Link>Beranda</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to='/'>
+                <Nav.Link>Profil Lembaga</Nav.Link>
+              </LinkContainer>
 
               <NavDropdown title='Program' id='basic-nav-dropdown'>
-                <NavDropdown.Item href='#action/3.1'>Bina Sehati</NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.2'>Bina Generasi</NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.3'>Bina Lestari</NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.3'>Tanggap Bencana</NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.3'>Qurban Peduli</NavDropdown.Item>
+                <LinkContainer to='/binasehati'>
+                  <NavDropdown.Item>Bina Sehati</NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to='/binagenerasi'>
+                  <NavDropdown.Item>Bina Generasi</NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to='/binalestari'>
+                  <NavDropdown.Item>Bina Lestari</NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to='/tanggapbencana'>
+                  <NavDropdown.Item>Tanggap Bencana</NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to='/qurban'>
+                  <NavDropdown.Item>Qurban Peduli</NavDropdown.Item>
+                </LinkContainer>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
