@@ -2,7 +2,7 @@
 @import './header.css';
 @import './heroImage.css';
 @import './service.css';
-@import './Galery.css';
+@import './DokumentasiProgram.css';
 @import './multi-carousel.css';
 @import './beritaProgram.css';
 @import './footer.css';
@@ -11,12 +11,12 @@
 /* akhir  homePage */
 
 /*  Program */
-
 @import './styleProgramWecan/binagenerasiPage.css';
 @import './styleProgramWecan/binaSehati.css';
 @import './styleProgramWecan/binaLestari.css';
 @import './styleProgramWecan//tanggapBencana.css';
 @import './styleProgramWecan/qurban.css';
+@import './ListItemGaleryProgram.css';
 
 * {
   padding: 0;

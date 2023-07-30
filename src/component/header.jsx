@@ -38,19 +38,19 @@ function HeaderNavigation() {
               </LinkContainer>
 
               <NavDropdown title='Program' id='basic-nav-dropdown'>
-                <LinkContainer to='/binasehati'>
+                <LinkContainer to='/binasehati/'>
                   <NavDropdown.Item>Bina Sehati</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/binagenerasi'>
+                <LinkContainer to='/binagenerasi/'>
                   <NavDropdown.Item>Bina Generasi</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/binalestari'>
+                <LinkContainer to='/binalestari/'>
                   <NavDropdown.Item>Bina Lestari</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/tanggapbencana'>
+                <LinkContainer to='/tanggapbencana/'>
                   <NavDropdown.Item>Tanggap Bencana</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/qurban'>
+                <LinkContainer to='/qurban/'>
                   <NavDropdown.Item>Qurban Peduli</NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>

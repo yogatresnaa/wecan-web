@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp, FaTiktok } from 'react-icons/fa';
 import { IoIosPaper, IoIosHome, IoMdContacts, IoMdDocument } from 'react-icons/io';
 import { IoAlertCircleOutline } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -50,12 +51,16 @@ function Footer() {
       <div className='footer-empat'>
         <ul className='mobile-menu'>
           <li>
-            <IoIosHome />
-            <p>Beranda</p>
+            <Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
+              <IoIosHome />
+              <p>Beranda</p>
+            </Link>
           </li>
           <li>
-            <IoIosPaper />
-            <p>Program</p>
+            <Link to='/galeryprogram/' style={{ textDecoration: 'none', color: 'white' }}>
+              <IoIosPaper />
+              <p>Program</p>
+            </Link>
           </li>
 
           <li>

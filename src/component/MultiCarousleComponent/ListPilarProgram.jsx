@@ -4,6 +4,9 @@ import Carousel from 'react-multi-carousel';
 import ItemPilarProgram from './itemPilarProgram';
 import 'react-multi-carousel/lib/styles.css';
 
+// import { useParams } from 'react-router-dom';
+// import { LinkContainer } from 'react-router-bootstrap';
+
 function ProgramCard({ pilarProgram }) {
   const responsive = {
     superLargeDesktop: {

@@ -69,4 +69,18 @@ function BeritaProgram() {
   return dataBeritaProgram;
 }
 
-export { CardPilarProgram, BeritaProgram };
+function getProgram(id) {
+  if (!id) {
+    return null;
+  }
+
+  const filteredPrograms = dataPilarProgram.filter((prog) => prog.id === id);
+
+  if (!filteredPrograms.length) {
+    return null;
+  }
+
+  return filteredPrograms[0];
+}
+
+export { CardPilarProgram, BeritaProgram, getProgram };

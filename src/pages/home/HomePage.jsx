@@ -1,10 +1,10 @@
 import React from 'react';
 import HeroImage from '../../component/heroImage';
 import ServiceMenu from '../../component/service';
-import ProgramCard from '../../component/pilarprogram/ListPilarProgram';
+import ProgramCard from '../../component/MultiCarousleComponent/ListPilarProgram';
 import { CardPilarProgram, BeritaProgram } from '../../utils/dataPilarProgram';
-import Galey from '../../component/Galrey';
-import ItemBeritaProgram from '../../component/BeritaProgram/ItemBeritaProgram';
+import Galey from '../../component/DokumentasiProgram';
+import ItemBeritaProgram from '../../component/ComponentBeritaProgram/ItemBeritaProgram';
 // import ListBeritaProgram from '../../component/BeritaProgram/ListItemBeritaProgram';
 
 function HomePage() {
@@ -31,7 +31,7 @@ function HomePage() {
       </div>
 
       <div className='program-wecan'>
-        <h2>Galery</h2>
+        <h2>Dokumentasi Program</h2>
         <Galey />
       </div>
     </>

@@ -14,6 +14,7 @@ import PageBinaSehati from './pages/PagePraogram/BinaSehati';
 import PageBinaLestari from './pages/PagePraogram/BinaLestariPage';
 import PageTanggapBencana from './pages/PagePraogram/TanggapBencana';
 import PageQurban from './pages/PagePraogram/PageQurban';
+import PageGaleryProgram from './pages/PagePraogram/PageGalery';
 
 // css
 import '../src/styles/style.css';
@@ -27,11 +28,12 @@ function App() {
       <main>
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/binasehati' element={<PageBinaSehati />} />
-          <Route path='/binagenerasi' element={<PageBinaGenerasi />} />
-          <Route path='/binalestari' element={<PageBinaLestari />} />
-          <Route path='/tanggapbencana' element={<PageTanggapBencana />} />
-          <Route path='/qurban' element={<PageQurban />} />
+          <Route path='/binasehati/' element={<PageBinaSehati />} />
+          <Route path='/binagenerasi/' element={<PageBinaGenerasi />} />
+          <Route path='/binalestari/' element={<PageBinaLestari />} />
+          <Route path='/tanggapbencana/' element={<PageTanggapBencana />} />
+          <Route path='/qurban/' element={<PageQurban />} />
+          <Route path='/galeryprogram/' element={<PageGaleryProgram />} />
         </Routes>
       </main>
 

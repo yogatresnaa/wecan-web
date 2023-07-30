@@ -1,6 +1,6 @@
 .header {
   background-color: rgb(134, 12, 67) !important;
   position: fixed;
-  z-index: 99;
+  z-index: 10;
   width: 100%;
 }
