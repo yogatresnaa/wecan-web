@@ -2,35 +2,35 @@ let dataPilarProgram = [
   {
     id: '1',
     Image: '/images/heroImage3.jpg',
-    title: 'Kesehataan',
+    title: 'KESEHATAN',
     description: 'Program Bina Sehati',
   },
 
   {
     id: '2',
     Image: '/images/heroImage.jpg',
-    title: 'Pendidikan',
+    title: 'PENDIDIKAN',
     description: 'Program Bina Generasi',
   },
 
   {
     id: '3',
     Image: '/images/heroImage5.jpg',
-    title: 'Kemanusiaan',
+    title: 'KEMANUSIAAN',
     description: 'Tanggan Bencana',
   },
 
   {
     id: '4',
     Image: '/images/heroImage6.jpg',
-    title: 'Lingkungan',
+    title: 'LINGKUNGAN',
     description: 'Bina Lestari',
   },
 
   {
     id: '5',
     Image: '/images/heroImage2.jpg',
-    title: 'Qurban',
+    title: 'QURBAN',
     description: 'Qurban Peduli',
   },
 ];

@@ -1,15 +1,32 @@
+.page-galery {
+  padding: 10px;
+  border: 1px solid red;
+  width: 100%;
+}
 .Galery-page {
   margin-right: auto;
   margin-left: auto;
   width: 90%;
-  background-color: rgb(27, 175, 239);
   border-radius: 10px;
+  margin-top: 100px;
+  box-shadow: rgb(150, 137, 236) 0px 2px 8px 0px;
 }
 .Galery-page h1 {
   text-align: center;
-  color: white;
+  color: black;
   font-family: Nunito;
   font-weight: 100;
+}
+
+.peta-distribusi-2019 {
+  width: 100%;
+  margin: auto;
+}
+
+.peta-distribusi-2019 img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom: solid 1px lightblue;
 }
 
 .Galery {

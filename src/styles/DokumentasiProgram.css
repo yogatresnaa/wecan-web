@@ -1,14 +1,15 @@
 .program-wecan {
   margin: 20px auto;
   width: 90%;
-  background-color: rgb(27, 175, 239);
+  box-shadow: rgba(9, 101, 221, 0.2) 0px 2px 8px 0px;
   border-radius: 10px;
 }
 .program-wecan h2 {
   text-align: center;
-  color: white;
+  color: black;
   font-family: Nunito;
   font-weight: 100;
+  padding: 10px;
 }
 
 .pilar-program {

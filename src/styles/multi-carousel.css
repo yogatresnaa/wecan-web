@@ -28,21 +28,29 @@ h4 {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 5px;
   border-radius: 10px;
-  background-color: rgb(27, 175, 239);
+  background-color: rgb(95, 8, 8);
 }
 
 .item-program img {
   width: 100%;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
-.information h2,
-p {
+.information h2 {
   font-family: Roboto slab;
   font-weight: normal;
   text-align: center;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.information p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 12px;
+  text-align: center;
 }
 
 /* Break point */
